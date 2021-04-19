@@ -51,7 +51,7 @@ def run():
                                                                         'SAP ECC (CIP) ECC 6.0 PROD PMT PMT','CONCUR 1.0 PROD CORP INT'))
             assignment_group = st.sidebar.selectbox('Assignment Group',('DCN CIS (HON)','HCE_Buildings_Digital Operations Support',
                                                                         'Exchange Support (INC)','User Insight','SAP Security (TCS)',
-                                                                        'SAP App Batch Run - HBT/SPS (NTT Data)','DCN CIS (HON)','Analytics Batch Run','SAP App Batch Run - CORP (NTT Data)',
+                                                                        'SAP App Batch Run - HBT/SPS (NTT Data)','Analytics Batch Run','SAP App Batch Run - CORP (NTT Data)',
                                                                         'SAP App Batch Run - PMT (NTT Data)','Expense Support'))
             group = business_service + ' | ' + service_offering + ' | ' + assignment_group
             data = {'contact_type': contact_type,
