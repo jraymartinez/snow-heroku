@@ -71,11 +71,10 @@ def run():
     st.subheader('User Input features')
 
     if uploaded_file is not None:
-        st.write(input_df)
+        st.write(input_display)
     else:
         st.write('Awaiting CSV file to be uploaded. Currently using example input parameters (shown below).')
         st.write(input_display)
-        input_df.to_csv('check.csv', index=False)
 
     # Apply model to make predictions
     if st.button("Predict"):
