@@ -1,1 +1,1 @@
- echo PORT $PORT web: sh setup.sh && streamlit run snow_app.py
+web: sh setup.sh && streamlit run snow_app.py
