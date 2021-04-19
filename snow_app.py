@@ -31,7 +31,7 @@ def run():
         input_df['group'] = input_df['business_service'].map(str) + ' | ' + input_df['service_offering'].map(str) + ' | ' + input_df['assignment_group'].map(str)
         input_display = input_df.copy()
         input_df.drop(input_df.columns[[2, 3, 4]], axis=1, inplace=True)
-        input_display.drop(input_df.columns[[5]], axis=1, inplace=True)
+        input_display.drop(input_display.columns[[5]], axis=1, inplace=True)
     else:
         def user_input_features():
             contact_type = st.sidebar.selectbox('Contact Type',('Chat','Self-sevice','Integration','Email', 'Phone','Virtual Agent'
