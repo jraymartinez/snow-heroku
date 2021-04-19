@@ -21,7 +21,7 @@ def run():
     st.sidebar.header('User Input Features')
 
     st.sidebar.markdown("""
-    [Example CSV input file](https://raw.githubusercontent.com/jraymartinez/AI_datasets/master/example_input_file.csv)
+    [Example CSV input file](https://raw.githubusercontent.com/jraymartinez/snow-heroku/main/example_input_file.csv)
     """)
 
     # Collects user input features into dataframe
